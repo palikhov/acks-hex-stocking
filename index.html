@@ -1,4 +1,4 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -9,6 +9,24 @@
     <body>
         <h1>ACKS Wilderness Stocking</h1>
         <p>Based on the Axiom Issue 8 article by Matt Jarmak with Alexander Macris</p>
+        <div id="controls">
+            <h2>Choose hex terrain type</h2>
+            <div>
+                <input type="radio" id="clear" name="terrain" value="clear" checked>
+                <label for="clear">Clear/Grass/Scrub</label>
+            </div>
+            <div>
+                <input type="radio" id="hills" name="terrain" value="hills">
+                <label for="clear">Hills/Wood/River/Ocean</label>
+            </div>
+            <div>
+                <input type="radio" id="barren" name="terrain" value="barren">
+                <label for="clear">Barren/Desert/Swamp/Jungle</label>
+            </div>
+            <div>
+                <button>Enter hex (Generate encounter)</button>
+            </div>
+        </div>
         <div id="encCard">
             <h2 id="encHeader">Unique Terrain</h2>
             <h3 id="encSubHeader">Complex Map</h3>
