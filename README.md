@@ -1,1 +1,5 @@
-# acks-hex-stocking
+# ACKS
+
+
+Правила по ACKS - 
+
